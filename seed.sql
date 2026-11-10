@@ -1,0 +1,1 @@
+INSERT INTO artists (id, name, genre, location, plays) VALUES ('amara', 'Amara Skye', 'Afropop', 'Lagos', 1240), ('jay', 'Jay Nova', 'R&B', 'Abuja', 980), ('kezi', 'Kezi', 'Alté', 'Port Harcourt', 875), ('mira', 'Mira Gold', 'Afrosoul', 'Enugu', 730) ON CONFLICT (id) DO NOTHING
